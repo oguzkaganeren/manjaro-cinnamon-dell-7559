@@ -7,3 +7,14 @@ yay -S materia-theme opera chromium ttf-font-awesome ttf-font-awesome-4 powerlin
 
 
 yay -S --mflags --skipinteg --needed spotify spotify-adblock
+
+sudo pacman -S docker-compose 
+sudo usermod -aG docker oguz 
+sudo systemctl start docker
+sudo systemctl enable docker
+
+reboot
+
+ERROR: Node.js version 11.15.0 is no longer supported.
+sudo npm install -g n
+sudo n latest
