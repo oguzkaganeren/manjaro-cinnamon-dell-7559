@@ -28,6 +28,10 @@ yay -S materia-theme opera chromium ttf-font-awesome ttf-font-awesome-4 ttf-robo
 ```
 yay -S --mflags --skipinteg --needed spotify spotify-adblock
 ```
+>  :exclamation: If you have a SSD, you should enable fstrim.
+```
+sudo systemctl enable fstrim.timer
+```
 ### For Other Partitations
 If you have another partition(E, D etc.). You can mount it on the startup. Thus some applications which are using other partitions don't get an error.
 
