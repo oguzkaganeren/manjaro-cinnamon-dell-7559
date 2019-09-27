@@ -24,6 +24,32 @@ curl -L https://get.oh-my.fish | fish
 ```
 yay -S materia-theme opera chromium ttf-font-awesome ttf-font-awesome-4 ttf-roboto android-studio woeusb-git jdownloader2 ttf-ms-fonts vscodium-bin breeze-blurred-git otf-san-francisco
 ```
+### Firefox screen tearing during scrolling Issue
+```
+sudo gedit /etc/profile.d/kwin.sh
+```
+then put this in it,
+```
+#!/bin/sh
+
+export KWIN_TRIPLE_BUFFER=1
+```
+After that, 
+```
+sudo gedit ~/.config/kwinrc
+```
+Add those parameters at the bottom,
+
+```
+MaxFPS=60
+RefreshRate=60
+```
+Save it and reboot. 
+Open firefox and 
+**about:config**
+then search  **layers.acceleration.force-enabled**
+It should be true.
+Done.
 ### Adblock Spotify
 ```
 yay -S --mflags --skipinteg --needed spotify spotify-adblock
