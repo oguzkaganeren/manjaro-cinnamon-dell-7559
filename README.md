@@ -22,7 +22,7 @@ curl -L https://get.oh-my.fish | fish
 
 ### Aur Packages I use
 ```
-yay -S materia-theme opera chromium ttf-font-awesome ttf-font-awesome-4 powerline-fonts ttf-roboto adobe-source-sans-pro-fonts android-studio woeusb-git jdownloader2 ttf-ms-fonts ephifonts otf-exo thermald vscodium-bin breeze-blurred-git otf-san-francisco
+yay -S materia-theme opera chromium ttf-font-awesome ttf-font-awesome-4 ttf-roboto android-studio woeusb-git jdownloader2 ttf-ms-fonts vscodium-bin breeze-blurred-git otf-san-francisco
 ```
 ### Adblock Spotify
 ```
