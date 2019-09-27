@@ -18,6 +18,7 @@ sudo pacman -S aria2 ttf-ubuntu-font-family speedtest-cli deepin-movie deepin-ca
 ```
 chsh -s /usr/bin/fish
 curl -L https://get.oh-my.fish | fish
+omf install bobthefish
 ```
 
 ### Aur Packages I use
