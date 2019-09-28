@@ -78,7 +78,11 @@ UUID=C480917680917022 /run/media/oguz/E ntfs-3g defaults  0 0
 >  :exclamation: If you use manjaro with dual boot, you should close fast-startup,hibarnate on your Windows, otherwise, you have not a write permission for other partitions.
 
 ### Installing Nvidia Drivers
---
+Use Manjaro Setting Manager > Hardware Configuration > Auto Install Proprietary Driver
+After Installation,
+```
+sudo gpasswd -a <user> bumblebee
+```
 ### Open Wifi Hotspot
 ```
 sudo create_ap wlp5s0 wlp5s0 MyAccessPoint password
