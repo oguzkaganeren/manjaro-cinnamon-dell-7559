@@ -82,6 +82,7 @@ Use Manjaro Setting Manager > Hardware Configuration > Auto Install Proprietary 
 After Installation,
 ```
 sudo gpasswd -a <user> bumblebee
+reboot
 ```
 ### Open Wifi Hotspot
 ```
