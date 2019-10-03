@@ -7,7 +7,7 @@ sudo nano /etc/default/grub
 
 ### Fastest Mirror List
 ```
-sudo pacman-mirrors --fasttrack
+sudo pacman-mirrors --fasttrack 5
 ```
 
 ### Packages I use
