@@ -25,6 +25,14 @@ omf install bobthefish
 ```
 yay -S materia-theme opera chromium ttf-font-awesome ttf-font-awesome-4 ttf-roboto android-studio woeusb-git jdownloader2 ttf-ms-fonts vscodium-bin breeze-blurred-git otf-san-francisco
 ```
+### If headphones not detected when restart or after startup
+```
+sudo nano /etc/pulse/default.pa
+```
+at the bottom under `### Make some devices default` put
+```
+set-default-sink 1
+```
 ### Firefox screen tearing during scrolling Issue
 ```
 sudo gedit /etc/profile.d/kwin.sh
