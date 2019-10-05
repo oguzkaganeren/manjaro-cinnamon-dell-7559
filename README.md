@@ -20,8 +20,9 @@ chsh -s /usr/bin/fish
 curl -L https://get.oh-my.fish | fish
 omf install bobthefish
 ```
-## Change fish color schema
+## Customize shell and terminal
 Change `.config/fish/omf.fish` with [this](https://github.com/oguzkaganeren/manjaro-cinnamon-dell-7559/blob/master/.config/fish/omf.fish)
+Set default deepin terminal then open it. Right click on the terminal and switch theme `argonaut`.
 ### Aur Packages I use
 ```
 yay -S materia-theme opera chromium ttf-font-awesome ttf-font-awesome-4 ttf-roboto android-studio woeusb-git jdownloader2 ttf-ms-fonts vscodium-bin breeze-blurred-git otf-san-francisco
