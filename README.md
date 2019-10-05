@@ -12,7 +12,7 @@ sudo pacman-mirrors --fasttrack 5
 
 ### Packages I use
 ```
-sudo pacman -S aria2 ttf-ubuntu-font-family speedtest-cli deepin-movie deepin-calculator telegram-desktop kdenlive inkscape create_ap gedit virtualbox fish flameshot
+sudo pacman -S aria2 ttf-ubuntu-font-family speedtest-cli deepin-movie deepin-calculator telegram-desktop kdenlive inkscape create_ap gedit virtualbox fish flameshot deepin-terminal
 ```
 ### Change the shell
 ```
