@@ -98,6 +98,11 @@ reboot
 ```
 sudo create_ap wlp5s0 wlp5s0 MyAccessPoint password
 ```
+### Format USB with Terminal
+```
+sudo umount /dev/sdxx
+sudo mkdosfs -F 32 -I /dev/sdxx
+```
 ## For Developers
 ### Docker
 ```
