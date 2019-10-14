@@ -81,8 +81,8 @@ sudo gedit /etc/fstab
 ```
 Open your fstab config with the command. You should add codes similar to the following example. You should change UUID and /run/media/yourUserName/Partition.
 ```
-UUID=DAF6FE7CF6FE5869 /run/media/oguz/D ext4 defaults  0 0
-UUID=C480917680917022 /run/media/oguz/E ext4 defaults  0 0
+UUID=b336b98e-d0b5-4254-b6aa-9e66f85b0dfc /run/media/oguz/Files ext4 defaults  0 0
+UUID=daffc947-3129-446b-ad35-8a730d7d7203 /run/media/oguz/Media ext4 defaults  0 0
 ```
 
 >  :exclamation: If you use manjaro with dual boot, you should close fast-startup,hibarnate on your Windows, otherwise, you have not a write permission for other partitions.
