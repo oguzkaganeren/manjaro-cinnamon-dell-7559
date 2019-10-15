@@ -147,3 +147,14 @@ By default TripleBuffer is disabled. This even in some cases can help load times
 ```
 Option 	   "TripleBuffer" "True"
 ```
+To bypass PowerMizer and Adaptive Clocking add this under the “Device” section.
+```
+Option         "RegistryDwords" "PowerMizerEnable=0x1; PerfLevelSrc=0x3322; PowerMizerDefaultAC=0x1"
+```
+
+    PowerMizerEnable=0x1 turns on PowerMizer.
+    PerfLevelSrc=0x2222 tells the video card to operate at full on both AC & battery.
+    PowerMizerDefaultAC=0x1 tells the card to behave as if AC power is connected.
+PerfLevelSrc=0x2222 is for desktops.
+
+Source https://forum.level1techs.com/t/nvidia-gpu-settings-guide-for-better-performance/131660
