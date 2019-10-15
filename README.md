@@ -130,3 +130,20 @@ sudo pacman -S pgadmin4
 ERROR: Node.js version 11.15.0 is no longer supported.
 sudo npm install -g n
 sudo n latest
+
+### Nvidia Overclock
+```
+sudo gedit /etc/X11/xorg.conf
+```
+Unlock everything under Nvidia X Server Settings gui including fan control and overclocking. Add this under both “Device” and “Screen” sections.
+```
+Option         "Coolbits" "31"
+
+```
+Also, enable TripleBuffer under the “Device” section.
+
+By default TripleBuffer is disabled. This even in some cases can help load times with the driver and games.
+
+```
+Option 	   "TripleBuffer" "True"
+```
