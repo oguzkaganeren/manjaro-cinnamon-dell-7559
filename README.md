@@ -158,3 +158,9 @@ Option         "RegistryDwords" "PowerMizerEnable=0x1; PerfLevelSrc=0x3322; Powe
 PerfLevelSrc=0x2222 is for desktops.
 
 Source https://forum.level1techs.com/t/nvidia-gpu-settings-guide-for-better-performance/131660
+
+## Change Default Java Version
+```
+sudo archlinux-java status
+sudo archlinux-java set java-10-openjdk
+```
