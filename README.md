@@ -1,5 +1,5 @@
 # manjaro-cinnamon-dell-7559
-![image](https://raw.githubusercontent.com/oguzkaganeren/manjaro-cinnamon-dell-7559/master/Screenshot%20from%202019-10-05%2022-14-28.png)
+![image](https://github.com/oguzkaganeren/manjaro-cinnamon-dell-7559/blob/master/Screenshot%20from%202019-10-26%2013-15-57.png)
 ```
 sudo nano /etc/default/grub 
 ```
