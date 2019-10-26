@@ -77,7 +77,18 @@ sudo chmod 777 /opt/spotify -R
 then copy the `google-spicetify` to `.config/spicetify/Themes/`
 ```
 spicetify backup apply
+```
+#### White
+```
 spicetify config current_theme google-spicetify; spicetify config color_scheme base; spicetify apply
+```
+#### Gow
+```
+spicetify config current_theme google-spicetify; spicetify config color_scheme gow; spicetify apply
+```
+#### Dark
+```
+spicetify config current_theme google-spicetify; spicetify config color_scheme dark; spicetify apply
 ```
 ### For Other Partitations
 If you have another partition(E, D etc.). You can mount it on the startup. Thus some applications which are using other partitions don't get an error.
