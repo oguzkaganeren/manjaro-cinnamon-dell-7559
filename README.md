@@ -25,7 +25,11 @@ Change `.config/fish/omf.fish` with [this](https://github.com/oguzkaganeren/manj
 Set default deepin terminal then open it. Right click on the terminal and switch theme `argonaut`.
 ### Aur Packages I use
 ```
-yay -S materia-theme opera chromium ttf-font-awesome ttf-font-awesome-4 ttf-roboto android-studio woeusb-git jdownloader2 ttf-ms-fonts vscodium-bin breeze-blurred-git otf-san-francisco xdman gwe svr zettlr-bin fslint waterfox-bin odio-appimage
+yay -S materia-theme opera chromium ttf-font-awesome ttf-font-awesome-4 ttf-roboto android-studio woeusb-git jdownloader2 ttf-ms-fonts vscodium-bin breeze-blurred-git otf-san-francisco xdman gwe svr zettlr-bin fslint waterfox-bin odio-appimage skypeforlinux-stable-bin
+```
+### If skype not run
+```
+sudo sysctl kernel.unprivileged_userns_clone=1
 ```
 ### If headphones not detected when restart or after startup
 ```
