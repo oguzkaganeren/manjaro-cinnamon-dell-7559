@@ -39,6 +39,10 @@ at the bottom under `### Make some devices default` put
 ```
 set-default-sink 1
 ```
+### Wrong clock
+```
+sudo timedatectl set-ntp true
+```
 ### Firefox screen tearing during scrolling Issue
 ```
 sudo gedit /etc/profile.d/kwin.sh
