@@ -41,7 +41,7 @@ set-default-sink 1
 ```
 ### Wrong clock
 ```
-sudo timedatectl set-ntp true
+timedatectl set-local-rtc 1 --adjust-system-clock
 ```
 ### Firefox screen tearing during scrolling Issue
 ```
