@@ -5,6 +5,11 @@ sudo nano /etc/default/grub
 ```
 > GRUB_CMDLINE_LINUX_DEFAULT="quiet acpi_osi=! acpi_osi=\ "Windows 2009\ " acpi_backlight=vendor"
 
+
+```
+sudo update-grub
+```
+
 ### Fastest Mirror List
 ```
 sudo pacman-mirrors --fasttrack 5
