@@ -42,7 +42,8 @@ sudo nano /etc/pulse/default.pa
 ```
 at the bottom under `### Make some devices default` put
 ```
-set-default-sink 1
+set-default-sink 3
+set-default-source 3
 ```
 ### Wrong clock
 ```
